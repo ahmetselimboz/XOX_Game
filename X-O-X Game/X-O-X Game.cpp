@@ -101,40 +101,40 @@ player1:
 
 		i++;
 
-		if (choice[0][0] == x && choice[0][1] == o && choice[0][2] == x) {
+		if (choice[0][0] == x && choice[0][1] == x && choice[0][2] == x) {
 			printf("Player 1 WIN\n");
 
 
 			goto finish;;
 
 		}
-		else	if (choice[1][0] == x && choice[1][1] == o && choice[1][2] == x) {
+		else	if (choice[1][0] == x && choice[1][1] == x && choice[1][2] == x) {
 			printf("Player 1 WIN");
 			goto finish;;
 		}
-		else	if (choice[2][0] == x && choice[2][1] == o && choice[2][2] == x) {
-			printf("Player 1 WIN");
-			goto finish;;
-		}
-
-		else	if (choice[0][0] == x && choice[1][0] == o && choice[2][0] == x) {
-			printf("Player 1 WIN");
-			goto finish;;
-		}
-		else	if (choice[0][1] == x && choice[1][1] == o && choice[2][1] == x) {
-			printf("Player 1 WIN");
-			goto finish;;
-		}
-		else	if (choice[0][2] == x && choice[1][2] == o && choice[2][2] == x) {
+		else	if (choice[2][0] == x && choice[2][1] == x && choice[2][2] == x) {
 			printf("Player 1 WIN");
 			goto finish;;
 		}
 
-		else	if (choice[0][0] == x && choice[1][1] == o && choice[2][2] == x) {
+		else	if (choice[0][0] == x && choice[1][0] == x && choice[2][0] == x) {
 			printf("Player 1 WIN");
 			goto finish;;
 		}
-		else	if (choice[0][2] == x && choice[1][1] == o && choice[2][0] == x) {
+		else	if (choice[0][1] == x && choice[1][1] == x && choice[2][1] == x) {
+			printf("Player 1 WIN");
+			goto finish;;
+		}
+		else	if (choice[0][2] == x && choice[1][2] == x && choice[2][2] == x) {
+			printf("Player 1 WIN");
+			goto finish;;
+		}
+
+		else	if (choice[0][0] == x && choice[1][1] == x && choice[2][2] == x) {
+			printf("Player 1 WIN");
+			goto finish;;
+		}
+		else	if (choice[0][2] == x && choice[1][1] == x && choice[2][0] == x) {
 			printf("Player 1 WIN");
 
 			goto finish;;
@@ -207,38 +207,38 @@ player2:
 
 		w++;
 
-		if (choice[0][0] == x && choice[0][1] == o && choice[0][2] == x) {
+		if (choice[0][0] == o && choice[0][1] == o && choice[0][2] == o) {
 			printf("Player 2 WIN");
 			goto finish;;
 			
 		}
-		else if (choice[1][0] == x && choice[1][1] == o && choice[1][2] == x) {
+		else if (choice[1][0] == o && choice[1][1] == o && choice[1][2] == o) {
 			printf("Player 2 WIN");
 			goto finish;;
 		}
-		else	if (choice[2][0] == x && choice[2][1] == o && choice[2][2] == x) {
-			printf("Player 2 WIN");
-			goto finish;;
-		}
-
-		else	if (choice[0][0] == x && choice[1][0] == o && choice[2][0] == x) {
-			printf("Player 2 WIN");
-			goto finish;;
-		}
-		else	if (choice[0][1] == x && choice[1][1] == o && choice[2][1] == x) {
-			printf("Player 2 WIN");
-			goto finish;;
-		}
-		else	if (choice[0][2] == x && choice[1][2] == o && choice[2][2] == x) {
+		else	if (choice[2][0] == o && choice[2][1] == o && choice[2][2] == o) {
 			printf("Player 2 WIN");
 			goto finish;;
 		}
 
-		else	if (choice[0][0] == x && choice[1][1] == o && choice[2][2] == x) {
+		else	if (choice[0][0] == o && choice[1][0] == o && choice[2][0] == o) {
 			printf("Player 2 WIN");
 			goto finish;;
 		}
-		else	if (choice[0][2] == x && choice[1][1] == o && choice[2][0] == x) {
+		else	if (choice[0][1] == o && choice[1][1] == o && choice[2][1] == o) {
+			printf("Player 2 WIN");
+			goto finish;;
+		}
+		else	if (choice[0][2] == o && choice[1][2] == o && choice[2][2] == o) {
+			printf("Player 2 WIN");
+			goto finish;;
+		}
+
+		else	if (choice[0][0] == o && choice[1][1] == o && choice[2][2] == o) {
+			printf("Player 2 WIN");
+			goto finish;;
+		}
+		else	if (choice[0][2] == o && choice[1][1] == o && choice[2][0] == o) {
 			printf("Player 2 WIN");
 			goto finish;;
 		}
